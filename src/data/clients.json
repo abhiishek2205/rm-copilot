@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": "client-001",
+    "name": "Priya Shah",
+    "age": 38,
+    "aum": 4200000,
+    "idleCash": 150000,
+    "churnRisk": "low",
+    "lastInteraction": "2025-03-01",
+    "missedCalls": 0,
+    "openIssues": [],
+    "products": ["Mutual Fund", "Fixed Deposit"],
+    "sentimentTrend": [72, 75, 80, 78, 85, 88],
+    "pitchRecommendations": [
+      {
+        "product": "SGB",
+        "confidence": 84,
+        "reasons": [
+          "Strong affinity for low-risk, inflation-beating instruments given her existing FD holdings",
+          "Peer segment shows 68% SGB adoption — she is likely receptive to gold-backed securities"
+        ]
+      }
+    ],
+    "riskFlag": null,
+    "peerBenchmark": {
+      "segment": "HNI Female 35-45",
+      "sgbAdoptionInSegment": 68
+    }
+  },
+  {
+    "id": "client-002",
+    "name": "Rajesh Mehta",
+    "age": 52,
+    "aum": 2800000,
+    "idleCash": 800000,
+    "churnRisk": "high",
+    "lastInteraction": "2025-01-15",
+    "missedCalls": 2,
+    "openIssues": [
+      "Pending complaint about delayed FD maturity credit since December 2024",
+      "Unresolved query on portfolio rebalancing options raised in January 2025"
+    ],
+    "products": ["Fixed Deposit"],
+    "sentimentTrend": [80, 74, 68, 60, 52, 45],
+    "pitchRecommendations": [
+      {
+        "product": "Mutual Fund",
+        "confidence": 61,
+        "reasons": [
+          "₹8L idle cash is losing value to inflation — a diversified equity MF can improve long-term returns",
+          "Single-product dependency on FD increases churn risk; adding MF diversifies his portfolio"
+        ]
+      }
+    ],
+    "riskFlag": "High withdrawal signals detected",
+    "peerBenchmark": {
+      "segment": "HNI Male 50-60",
+      "sgbAdoptionInSegment": 54
+    }
+  }
+]
