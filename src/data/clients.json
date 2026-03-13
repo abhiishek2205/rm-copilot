@@ -1,5 +1,10 @@
 [
   {
+    "_comment": "Metadata: Each client object has 25 top-level fields — id, name, age, aum, idleCash, churnRisk, lastInteraction, missedCalls, openIssues, products, sentimentTrend, pitchRecommendations, riskFlag, peerBenchmark, conversationHistory, emailHistory, transactionHistory, portfolioBreakdown, lifeEvents, alertTriggers, rmNotes, communicationPreference, riskAppetite, relationshipSince, assignedRM",
+    "client-001_fields": 25,
+    "client-002_fields": 25
+  },
+  {
     "id": "client-001",
     "name": "Priya Shah",
     "age": 38,
